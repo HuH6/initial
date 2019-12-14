@@ -1,0 +1,14 @@
+from MyQR import myqr
+import os
+
+myqr.run(
+    words = 'Hello world',
+    version = 1,
+    level = 'H',
+    picture = r'C:\Users\Lenovo\Desktop\python\level_17\zerotwo.jpg',
+    colorized = True,
+    contrast = 1.0,
+    brightness = 1.0,
+    save_name = 'test1.png',
+    save_dir = os.getcwd()
+)
